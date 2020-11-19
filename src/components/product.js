@@ -8,7 +8,7 @@ function Product(props) {
   const { count, decrement, increment } = props;
 
   return (
-    <div className="product">
+    <div>
       <p>{props.product.name}</p>
       <p>{props.product.price} $</p>
       <button onClick={decrement}>
